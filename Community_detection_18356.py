@@ -113,13 +113,5 @@ coords = layout_with_fr(g)
 # plot the graph
 plot(g, layout=coords, vertex.size=10)
 
-!pip install igraph
 
-from igraph import *
-
-!pip install jgraph
-
-from jgraph import *
-
-g=Graph.Read_GML(content/karate.gml)
 
